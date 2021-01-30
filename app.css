@@ -1,0 +1,54 @@
+body {
+    background-color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+
+#nav-link li a {
+    color: #ffffff;
+    text-shadow: -1px 0px 13px #160906;
+}
+#nav-link li a:hover {
+    color: #EA1C2C;
+}
+
+.donut p {
+    font-weight: 100;
+    font-size: 4rem;
+}
+.product p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+h1 {
+    font-weight: 100;
+    color: #EA1C2C;
+}
+
+.scroll-bg {
+    background-color: #dec8e98e;
+    backdrop-filter: blur(10px);
+}
+
+
+
+@media (max-width:1300px) {
+    .donut p {
+        font-size: 3.5rem;   
+    }
+}
+
+@media (max-width:1200px) {
+    .donut p {
+        font-size: 3rem;   
+    }
+}
