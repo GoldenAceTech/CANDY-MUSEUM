@@ -36,9 +36,9 @@ h1 {
 
 .scroll-bg {
     background-color: #dec8e98e;
-    backdrop-filter: blur(2rem);
-    -webkit-backdrop-filter: blur(2rem);
-    -ms-backdrop-filter: blur(2rem);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -ms-backdrop-filter: blur(10px);
 }
 
 
